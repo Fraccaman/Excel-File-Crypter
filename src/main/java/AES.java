@@ -3,17 +3,14 @@ import javax.crypto.Cipher;
 import javax.crypto.spec.IvParameterSpec;
 import javax.crypto.spec.SecretKeySpec;
 
-/**
- * The type Aes.
- */
 public class AES {
 
     /**
      * Encrypt string.
      *
      * @param plainText the plain text
-     * @param enc_key   the enc key
-     * @return the string
+     * @param enc_key   the encryption key
+     * @return the encrypted text
      * @throws Exception the exception
      */
 
@@ -28,9 +25,9 @@ public class AES {
     /**
      * Decrypt string.
      *
-     * @param cipherString the cipher string
-     * @param enk_key      the enk key
-     * @return the string
+     * @param cipherString the encrypted text
+     * @param enk_key the encryption key
+     * @return the plain text
      * @throws Exception the exception
      */
 

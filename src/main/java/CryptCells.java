@@ -12,18 +12,15 @@ import java.io.IOException;
 import java.util.ArrayList;
 import java.util.Iterator;
 
-/**
- * The type Crypt cells.
- */
 public class CryptCells {
 
     /**
      * Encrypt.
      *
      * @param filepath  the filepath
-     * @param key       the key
-     * @param indexes   the indexes
-     * @param sheetindx the sheetindx
+     * @param key       the encryption key
+     * @param indexes   the column to be encrypted
+     * @param sheetindx the index of the sheet to work on
      * @throws Exception the exception
      */
 
